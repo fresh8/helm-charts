@@ -19,4 +19,7 @@ git commit -m "Add new Chart to fresh8 repo"
 helm repo add fresh8 'https://raw.githubusercontent.com/fresh8/helm-charts/master/'
 helm repo update
 helm search pachyderm
+NAME            	CHART VERSION	APP VERSION	DESCRIPTION
+fresh8/pachyderm	0.1.8        	1.7.3      	Pachyderm is a large-scale container-based workflow engin...
+stable/pachyderm	0.1.7        	1.7.3      	Pachyderm is a large-scale container-based workflow engin...
 ```
